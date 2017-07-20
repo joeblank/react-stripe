@@ -1,0 +1,26 @@
+{
+  "name": "stripe-test",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./server/server.js",
+  "proxy": "http://localhost:3535",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-stripe-checkout": "^2.4.0",
+    "stripe": "^4.23.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
